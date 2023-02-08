@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Eletrônico</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Automated Teller Machine</h1>
+        <p>Seja Bem-Vindo ao ATM</p>
+    </header>
+    <section>
+        <div>
+            <img src="ATM-sign.png" alt="ATM" id="imagem">
+            <br><br><br>Selecione o valor que deseja sacar: <input type="number" name="saque" id="saque">
+                <input type="button" value="Sacar" onclick="sacar()">
+            <div id="resumo"></div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; MôRa's ATM</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
