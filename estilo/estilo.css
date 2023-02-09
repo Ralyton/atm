@@ -10,6 +10,7 @@ body {
     background: green;
     font: normal 20px Arial;
     min-width: 100vw;
+    min-height: 100vh;
 }
 
 header {
