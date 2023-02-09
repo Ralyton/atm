@@ -5,7 +5,9 @@ body {
 
 header {
     color: white;
+    display: block;
     text-align: center;
+    margin: auto;
 }
 
 section {
